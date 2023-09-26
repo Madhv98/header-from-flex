@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    height: 116px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    border: 1px solid #020202;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: rgb(9, 9, 9);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    height: 51px;
+  }
+  .nav {
+    display: flex;
+    margin-left: auto; 
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+
+
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    font-size: 20px;
+    gap: 20px
+    
+  }
+
+  .contact {
+    display: inline-block; /* Ensures the div takes the width of its content */
+    background-color: #323097; /* Button background color */
+    padding: 8px 16px; /* Adjust padding to control button size */
+    text-align: center;
+    border-radius: 4px;
+  }
+  .contact a{
+    color:#D9D9D9;
+    font: 1em semi-bold;
+
+
+  }
+  
+  .contact:hover {
+    background-color: #0056b3;
+    border: 1px solid purple; /* New background color on hover */
+  }
